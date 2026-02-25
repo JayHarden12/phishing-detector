@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.DS_Store
+
+# Streamlit config (optional)
+.streamlit/
+
+# You can theoretically exclude ml_models/ and data/ here, 
+# but they are under 5MB total so we will include them in GitHub 
+# for immediate reproducibility!

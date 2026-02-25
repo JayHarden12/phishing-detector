@@ -1,0 +1,1114 @@
+{
+  "classifiers": [
+    {
+      "name": "naive_bayes",
+      "accuracy": 0.8535,
+      "precision": 0.9435382685069009,
+      "recall": 0.752,
+      "f1_score": 0.8369504730105731,
+      "roc_auc": 0.948609,
+      "confusion_matrix": [
+        [
+          955,
+          45
+        ],
+        [
+          248,
+          752
+        ]
+      ],
+      "risk_coverage_curve": [
+        {
+          "threshold": 0.5,
+          "coverage": 1.0,
+          "risk": 0.14649999999999996,
+          "abstention_rate": 0.0
+        },
+        {
+          "threshold": 0.51,
+          "coverage": 1.0,
+          "risk": 0.14649999999999996,
+          "abstention_rate": 0.0
+        },
+        {
+          "threshold": 0.52,
+          "coverage": 0.9995,
+          "risk": 0.1460730365182591,
+          "abstention_rate": 0.0004999999999999449
+        },
+        {
+          "threshold": 0.53,
+          "coverage": 0.9995,
+          "risk": 0.1460730365182591,
+          "abstention_rate": 0.0004999999999999449
+        },
+        {
+          "threshold": 0.54,
+          "coverage": 0.999,
+          "risk": 0.14564564564564564,
+          "abstention_rate": 0.0010000000000000009
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.999,
+          "risk": 0.14564564564564564,
+          "abstention_rate": 0.0010000000000000009
+        },
+        {
+          "threshold": 0.56,
+          "coverage": 0.999,
+          "risk": 0.14564564564564564,
+          "abstention_rate": 0.0010000000000000009
+        },
+        {
+          "threshold": 0.5700000000000001,
+          "coverage": 0.999,
+          "risk": 0.14564564564564564,
+          "abstention_rate": 0.0010000000000000009
+        },
+        {
+          "threshold": 0.58,
+          "coverage": 0.999,
+          "risk": 0.14564564564564564,
+          "abstention_rate": 0.0010000000000000009
+        },
+        {
+          "threshold": 0.59,
+          "coverage": 0.998,
+          "risk": 0.14579158316633267,
+          "abstention_rate": 0.0020000000000000018
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.998,
+          "risk": 0.14579158316633267,
+          "abstention_rate": 0.0020000000000000018
+        },
+        {
+          "threshold": 0.61,
+          "coverage": 0.9975,
+          "risk": 0.14586466165413536,
+          "abstention_rate": 0.0024999999999999467
+        },
+        {
+          "threshold": 0.62,
+          "coverage": 0.997,
+          "risk": 0.14593781344032097,
+          "abstention_rate": 0.0030000000000000027
+        },
+        {
+          "threshold": 0.63,
+          "coverage": 0.9965,
+          "risk": 0.14550928248871053,
+          "abstention_rate": 0.0034999999999999476
+        },
+        {
+          "threshold": 0.64,
+          "coverage": 0.996,
+          "risk": 0.1450803212851406,
+          "abstention_rate": 0.0040000000000000036
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.996,
+          "risk": 0.1450803212851406,
+          "abstention_rate": 0.0040000000000000036
+        },
+        {
+          "threshold": 0.66,
+          "coverage": 0.9955,
+          "risk": 0.14465092918131595,
+          "abstention_rate": 0.0044999999999999485
+        },
+        {
+          "threshold": 0.67,
+          "coverage": 0.995,
+          "risk": 0.1447236180904523,
+          "abstention_rate": 0.0050000000000000044
+        },
+        {
+          "threshold": 0.6799999999999999,
+          "coverage": 0.995,
+          "risk": 0.1447236180904523,
+          "abstention_rate": 0.0050000000000000044
+        },
+        {
+          "threshold": 0.69,
+          "coverage": 0.995,
+          "risk": 0.1447236180904523,
+          "abstention_rate": 0.0050000000000000044
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.993,
+          "risk": 0.14501510574018128,
+          "abstention_rate": 0.007000000000000006
+        },
+        {
+          "threshold": 0.71,
+          "coverage": 0.993,
+          "risk": 0.14501510574018128,
+          "abstention_rate": 0.007000000000000006
+        },
+        {
+          "threshold": 0.72,
+          "coverage": 0.993,
+          "risk": 0.14501510574018128,
+          "abstention_rate": 0.007000000000000006
+        },
+        {
+          "threshold": 0.73,
+          "coverage": 0.993,
+          "risk": 0.14501510574018128,
+          "abstention_rate": 0.007000000000000006
+        },
+        {
+          "threshold": 0.74,
+          "coverage": 0.993,
+          "risk": 0.14501510574018128,
+          "abstention_rate": 0.007000000000000006
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.9925,
+          "risk": 0.14508816120906798,
+          "abstention_rate": 0.007499999999999951
+        },
+        {
+          "threshold": 0.76,
+          "coverage": 0.992,
+          "risk": 0.14516129032258063,
+          "abstention_rate": 0.008000000000000007
+        },
+        {
+          "threshold": 0.77,
+          "coverage": 0.992,
+          "risk": 0.14516129032258063,
+          "abstention_rate": 0.008000000000000007
+        },
+        {
+          "threshold": 0.78,
+          "coverage": 0.992,
+          "risk": 0.14516129032258063,
+          "abstention_rate": 0.008000000000000007
+        },
+        {
+          "threshold": 0.79,
+          "coverage": 0.992,
+          "risk": 0.14516129032258063,
+          "abstention_rate": 0.008000000000000007
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.992,
+          "risk": 0.14516129032258063,
+          "abstention_rate": 0.008000000000000007
+        },
+        {
+          "threshold": 0.81,
+          "coverage": 0.9915,
+          "risk": 0.1452344931921331,
+          "abstention_rate": 0.008499999999999952
+        },
+        {
+          "threshold": 0.8200000000000001,
+          "coverage": 0.9915,
+          "risk": 0.1452344931921331,
+          "abstention_rate": 0.008499999999999952
+        },
+        {
+          "threshold": 0.8300000000000001,
+          "coverage": 0.9915,
+          "risk": 0.1452344931921331,
+          "abstention_rate": 0.008499999999999952
+        },
+        {
+          "threshold": 0.8400000000000001,
+          "coverage": 0.99,
+          "risk": 0.1444444444444445,
+          "abstention_rate": 0.010000000000000009
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "coverage": 0.989,
+          "risk": 0.1445904954499494,
+          "abstention_rate": 0.01100000000000001
+        },
+        {
+          "threshold": 0.86,
+          "coverage": 0.988,
+          "risk": 0.14423076923076927,
+          "abstention_rate": 0.01200000000000001
+        },
+        {
+          "threshold": 0.87,
+          "coverage": 0.987,
+          "risk": 0.14387031408308004,
+          "abstention_rate": 0.013000000000000012
+        },
+        {
+          "threshold": 0.88,
+          "coverage": 0.985,
+          "risk": 0.14416243654822336,
+          "abstention_rate": 0.015000000000000013
+        },
+        {
+          "threshold": 0.89,
+          "coverage": 0.9845,
+          "risk": 0.14423565261554083,
+          "abstention_rate": 0.015499999999999958
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.983,
+          "risk": 0.1444557477110885,
+          "abstention_rate": 0.017000000000000015
+        },
+        {
+          "threshold": 0.91,
+          "coverage": 0.9825,
+          "risk": 0.14452926208651395,
+          "abstention_rate": 0.01749999999999996
+        },
+        {
+          "threshold": 0.9199999999999999,
+          "coverage": 0.98,
+          "risk": 0.14489795918367343,
+          "abstention_rate": 0.020000000000000018
+        },
+        {
+          "threshold": 0.9299999999999999,
+          "coverage": 0.9775,
+          "risk": 0.14424552429667514,
+          "abstention_rate": 0.022499999999999964
+        },
+        {
+          "threshold": 0.94,
+          "coverage": 0.9755,
+          "risk": 0.14402870322911332,
+          "abstention_rate": 0.024499999999999966
+        },
+        {
+          "threshold": 0.95,
+          "coverage": 0.972,
+          "risk": 0.1430041152263375,
+          "abstention_rate": 0.028000000000000025
+        },
+        {
+          "threshold": 0.96,
+          "coverage": 0.9695,
+          "risk": 0.1428571428571429,
+          "abstention_rate": 0.03049999999999997
+        },
+        {
+          "threshold": 0.97,
+          "coverage": 0.966,
+          "risk": 0.14337474120082816,
+          "abstention_rate": 0.03400000000000003
+        },
+        {
+          "threshold": 0.98,
+          "coverage": 0.959,
+          "risk": 0.14077163712200214,
+          "abstention_rate": 0.041000000000000036
+        },
+        {
+          "threshold": 0.99,
+          "coverage": 0.956,
+          "risk": 0.1406903765690377,
+          "abstention_rate": 0.04400000000000004
+        }
+      ],
+      "feature_importance": {
+        "NumDots": 0.0010000000000000453,
+        "SubdomainLevel": 4.4408920985006264e-17,
+        "PathLevel": 0.0018000000000000238,
+        "UrlLength": -0.0007999999999999785,
+        "NumDash": 0.014600000000000057,
+        "NumDashInHostname": 0.006800000000000051,
+        "AtSymbol": 0.0,
+        "TildeSymbol": 0.005500000000000016,
+        "NumUnderscore": 0.001000000000000023,
+        "NumPercent": 0.004200000000000026,
+        "NumQueryComponents": 0.001100000000000012,
+        "NumAmpersand": 0.00040000000000002257,
+        "NumHash": 0.001100000000000012,
+        "NumNumericChars": 0.005100000000000016,
+        "NoHttps": 0.001900000000000035,
+        "RandomString": -0.00029999999999996696,
+        "IpAddress": 0.00770000000000004,
+        "DomainInSubdomains": 0.0029000000000000137,
+        "DomainInPaths": 0.0008000000000000229,
+        "HttpsInHostname": 0.0,
+        "HostnameLength": -0.00039999999999997817,
+        "PathLength": 0.00030000000000005576,
+        "QueryLength": -9.999999999998899e-05,
+        "DoubleSlashInPath": 0.00010000000000001119,
+        "NumSensitiveWords": 0.025000000000000067,
+        "EmbeddedBrandName": 0.0023000000000000355,
+        "PctExtHyperlinks": 0.014100000000000024,
+        "PctExtResourceUrls": -9.999999999998899e-05,
+        "ExtFavicon": 0.002200000000000024,
+        "InsecureForms": 0.00830000000000004,
+        "RelativeFormAction": 2.2204460492503132e-17,
+        "ExtFormAction": 0.0008000000000000229,
+        "AbnormalFormAction": 2.2204460492503132e-17,
+        "PctNullSelfRedirectHyperlinks": 0.09010000000000004,
+        "FrequentDomainNameMismatch": 0.014600000000000035,
+        "FakeLinkInStatusBar": -0.0004999999999999672,
+        "RightClickDisabled": 0.002100000000000013,
+        "PopUpWindow": 0.003200000000000025,
+        "SubmitInfoToEmail": 0.026900000000000056,
+        "IframeOrFrame": 0.0009000000000000341,
+        "MissingTitle": 0.016200000000000037,
+        "ImagesOnlyInForm": 0.0,
+        "SubdomainLevelRT": -0.0006999999999999674,
+        "UrlLengthRT": -0.0005999999999999784,
+        "PctExtResourceUrlsRT": 0.0,
+        "AbnormalExtFormActionR": 0.0006000000000000227,
+        "ExtMetaScriptLinkRT": -9.999999999996679e-05,
+        "PctExtNullSelfRedirectHyperlinksRT": 0.008000000000000052
+      }
+    },
+    {
+      "name": "svm",
+      "accuracy": 0.969,
+      "precision": 0.9616141732283464,
+      "recall": 0.977,
+      "f1_score": 0.9692460317460317,
+      "roc_auc": 0.9952639999999999,
+      "confusion_matrix": [
+        [
+          961,
+          39
+        ],
+        [
+          23,
+          977
+        ]
+      ],
+      "risk_coverage_curve": [
+        {
+          "threshold": 0.5,
+          "coverage": 1.0,
+          "risk": 0.031000000000000028,
+          "abstention_rate": 0.0
+        },
+        {
+          "threshold": 0.51,
+          "coverage": 0.9995,
+          "risk": 0.030515257628814352,
+          "abstention_rate": 0.0004999999999999449
+        },
+        {
+          "threshold": 0.52,
+          "coverage": 0.9985,
+          "risk": 0.03004506760140213,
+          "abstention_rate": 0.0014999999999999458
+        },
+        {
+          "threshold": 0.53,
+          "coverage": 0.996,
+          "risk": 0.030120481927710885,
+          "abstention_rate": 0.0040000000000000036
+        },
+        {
+          "threshold": 0.54,
+          "coverage": 0.9945,
+          "risk": 0.02916038210155858,
+          "abstention_rate": 0.005499999999999949
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.994,
+          "risk": 0.028672032193158947,
+          "abstention_rate": 0.006000000000000005
+        },
+        {
+          "threshold": 0.56,
+          "coverage": 0.9925,
+          "risk": 0.028211586901763175,
+          "abstention_rate": 0.007499999999999951
+        },
+        {
+          "threshold": 0.5700000000000001,
+          "coverage": 0.992,
+          "risk": 0.027721774193548376,
+          "abstention_rate": 0.008000000000000007
+        },
+        {
+          "threshold": 0.58,
+          "coverage": 0.9905,
+          "risk": 0.027763755678950064,
+          "abstention_rate": 0.009499999999999953
+        },
+        {
+          "threshold": 0.59,
+          "coverage": 0.9885,
+          "risk": 0.026808295397066306,
+          "abstention_rate": 0.011499999999999955
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.9875,
+          "risk": 0.025822784810126564,
+          "abstention_rate": 0.012499999999999956
+        },
+        {
+          "threshold": 0.61,
+          "coverage": 0.9865,
+          "risk": 0.02584896097313738,
+          "abstention_rate": 0.013499999999999956
+        },
+        {
+          "threshold": 0.62,
+          "coverage": 0.986,
+          "risk": 0.02535496957403649,
+          "abstention_rate": 0.014000000000000012
+        },
+        {
+          "threshold": 0.63,
+          "coverage": 0.9825,
+          "risk": 0.02391857506361328,
+          "abstention_rate": 0.01749999999999996
+        },
+        {
+          "threshold": 0.64,
+          "coverage": 0.9805,
+          "risk": 0.022947475777664428,
+          "abstention_rate": 0.019499999999999962
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.9795,
+          "risk": 0.021949974476773826,
+          "abstention_rate": 0.020499999999999963
+        },
+        {
+          "threshold": 0.66,
+          "coverage": 0.9775,
+          "risk": 0.02148337595907923,
+          "abstention_rate": 0.022499999999999964
+        },
+        {
+          "threshold": 0.67,
+          "coverage": 0.9735,
+          "risk": 0.020544427324088343,
+          "abstention_rate": 0.026499999999999968
+        },
+        {
+          "threshold": 0.6799999999999999,
+          "coverage": 0.973,
+          "risk": 0.020554984583761593,
+          "abstention_rate": 0.027000000000000024
+        },
+        {
+          "threshold": 0.69,
+          "coverage": 0.972,
+          "risk": 0.020061728395061706,
+          "abstention_rate": 0.028000000000000025
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.9715,
+          "risk": 0.019557385486361323,
+          "abstention_rate": 0.02849999999999997
+        },
+        {
+          "threshold": 0.71,
+          "coverage": 0.971,
+          "risk": 0.019567456230690006,
+          "abstention_rate": 0.029000000000000026
+        },
+        {
+          "threshold": 0.72,
+          "coverage": 0.9685,
+          "risk": 0.019101703665462044,
+          "abstention_rate": 0.03149999999999997
+        },
+        {
+          "threshold": 0.73,
+          "coverage": 0.965,
+          "risk": 0.01917098445595855,
+          "abstention_rate": 0.03500000000000003
+        },
+        {
+          "threshold": 0.74,
+          "coverage": 0.9615,
+          "risk": 0.017680707228289183,
+          "abstention_rate": 0.03849999999999998
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.961,
+          "risk": 0.01716961498439129,
+          "abstention_rate": 0.039000000000000035
+        },
+        {
+          "threshold": 0.76,
+          "coverage": 0.957,
+          "risk": 0.01671891327063746,
+          "abstention_rate": 0.04300000000000004
+        },
+        {
+          "threshold": 0.77,
+          "coverage": 0.956,
+          "risk": 0.01673640167364021,
+          "abstention_rate": 0.04400000000000004
+        },
+        {
+          "threshold": 0.78,
+          "coverage": 0.9535,
+          "risk": 0.015731515469323498,
+          "abstention_rate": 0.046499999999999986
+        },
+        {
+          "threshold": 0.79,
+          "coverage": 0.9515,
+          "risk": 0.015239096163951693,
+          "abstention_rate": 0.04849999999999999
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.9505,
+          "risk": 0.015255128879537061,
+          "abstention_rate": 0.04949999999999999
+        },
+        {
+          "threshold": 0.81,
+          "coverage": 0.948,
+          "risk": 0.014240506329113889,
+          "abstention_rate": 0.052000000000000046
+        },
+        {
+          "threshold": 0.8200000000000001,
+          "coverage": 0.9465,
+          "risk": 0.014263074484944571,
+          "abstention_rate": 0.05349999999999999
+        },
+        {
+          "threshold": 0.8300000000000001,
+          "coverage": 0.9435,
+          "risk": 0.014308426073131986,
+          "abstention_rate": 0.056499999999999995
+        },
+        {
+          "threshold": 0.8400000000000001,
+          "coverage": 0.94,
+          "risk": 0.013297872340425565,
+          "abstention_rate": 0.06000000000000005
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "coverage": 0.936,
+          "risk": 0.012286324786324743,
+          "abstention_rate": 0.06399999999999995
+        },
+        {
+          "threshold": 0.86,
+          "coverage": 0.933,
+          "risk": 0.0112540192926045,
+          "abstention_rate": 0.06699999999999995
+        },
+        {
+          "threshold": 0.87,
+          "coverage": 0.9285,
+          "risk": 0.009693053311793265,
+          "abstention_rate": 0.07150000000000001
+        },
+        {
+          "threshold": 0.88,
+          "coverage": 0.925,
+          "risk": 0.009729729729729741,
+          "abstention_rate": 0.07499999999999996
+        },
+        {
+          "threshold": 0.89,
+          "coverage": 0.92,
+          "risk": 0.009239130434782639,
+          "abstention_rate": 0.07999999999999996
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.9175,
+          "risk": 0.00871934604904634,
+          "abstention_rate": 0.08250000000000002
+        },
+        {
+          "threshold": 0.91,
+          "coverage": 0.911,
+          "risk": 0.008781558726673966,
+          "abstention_rate": 0.08899999999999997
+        },
+        {
+          "threshold": 0.9199999999999999,
+          "coverage": 0.8985,
+          "risk": 0.0072342793544797335,
+          "abstention_rate": 0.10150000000000003
+        },
+        {
+          "threshold": 0.9299999999999999,
+          "coverage": 0.892,
+          "risk": 0.006165919282511201,
+          "abstention_rate": 0.10799999999999998
+        },
+        {
+          "threshold": 0.94,
+          "coverage": 0.8815,
+          "risk": 0.005672149744753274,
+          "abstention_rate": 0.11850000000000005
+        },
+        {
+          "threshold": 0.95,
+          "coverage": 0.8665,
+          "risk": 0.004039238315060589,
+          "abstention_rate": 0.13349999999999995
+        },
+        {
+          "threshold": 0.96,
+          "coverage": 0.837,
+          "risk": 0.0029868578255675127,
+          "abstention_rate": 0.16300000000000003
+        },
+        {
+          "threshold": 0.97,
+          "coverage": 0.771,
+          "risk": 0.0025940337224383825,
+          "abstention_rate": 0.22899999999999998
+        },
+        {
+          "threshold": 0.98,
+          "coverage": 0.697,
+          "risk": 0.002152080344332896,
+          "abstention_rate": 0.30300000000000005
+        },
+        {
+          "threshold": 0.99,
+          "coverage": 0.5935,
+          "risk": 0.002527379949452402,
+          "abstention_rate": 0.4065
+        }
+      ],
+      "feature_importance": {
+        "NumDots": 0.012499999999999978,
+        "SubdomainLevel": 0.0028999999999999694,
+        "PathLevel": 0.010599999999999988,
+        "UrlLength": 0.0020999999999999686,
+        "NumDash": 0.03179999999999996,
+        "NumDashInHostname": 0.00539999999999996,
+        "AtSymbol": 0.0,
+        "TildeSymbol": 0.004999999999999982,
+        "NumUnderscore": 0.006299999999999972,
+        "NumPercent": 0.0020999999999999686,
+        "NumQueryComponents": 0.01679999999999997,
+        "NumAmpersand": 0.0020999999999999465,
+        "NumHash": 0.0010999999999999678,
+        "NumNumericChars": 0.00369999999999997,
+        "NoHttps": 0.005699999999999972,
+        "RandomString": 0.0006999999999999674,
+        "IpAddress": 0.007599999999999984,
+        "DomainInSubdomains": 0.0009999999999999788,
+        "DomainInPaths": 0.0016999999999999682,
+        "HttpsInHostname": 0.0,
+        "HostnameLength": 0.002499999999999969,
+        "PathLength": 0.0010999999999999678,
+        "QueryLength": 0.0020999999999999908,
+        "DoubleSlashInPath": 9.999999999998899e-05,
+        "NumSensitiveWords": 0.005099999999999993,
+        "EmbeddedBrandName": 0.003999999999999959,
+        "PctExtHyperlinks": 0.020499999999999984,
+        "PctExtResourceUrls": 0.020899999999999985,
+        "ExtFavicon": 0.011699999999999978,
+        "InsecureForms": 0.032099999999999976,
+        "RelativeFormAction": 0.0027999999999999805,
+        "ExtFormAction": 0.0006999999999999895,
+        "AbnormalFormAction": -0.00020000000000002237,
+        "PctNullSelfRedirectHyperlinks": 0.0009999999999999564,
+        "FrequentDomainNameMismatch": 0.03399999999999996,
+        "FakeLinkInStatusBar": 0.0004999999999999672,
+        "RightClickDisabled": 0.0006999999999999674,
+        "PopUpWindow": 0.0033999999999999807,
+        "SubmitInfoToEmail": 0.01429999999999998,
+        "IframeOrFrame": 0.005299999999999971,
+        "MissingTitle": -0.0007000000000000117,
+        "ImagesOnlyInForm": 0.00239999999999998,
+        "SubdomainLevelRT": 0.0,
+        "UrlLengthRT": 0.0010999999999999678,
+        "PctExtResourceUrlsRT": 0.0012999999999999678,
+        "AbnormalExtFormActionR": 0.0012999999999999678,
+        "ExtMetaScriptLinkRT": 0.007499999999999974,
+        "PctExtNullSelfRedirectHyperlinksRT": 0.04859999999999998
+      }
+    },
+    {
+      "name": "logistic_regression",
+      "accuracy": 0.952,
+      "precision": 0.9448818897637795,
+      "recall": 0.96,
+      "f1_score": 0.9523809523809523,
+      "roc_auc": 0.9868540000000001,
+      "confusion_matrix": [
+        [
+          944,
+          56
+        ],
+        [
+          40,
+          960
+        ]
+      ],
+      "risk_coverage_curve": [
+        {
+          "threshold": 0.5,
+          "coverage": 1.0,
+          "risk": 0.04800000000000004,
+          "abstention_rate": 0.0
+        },
+        {
+          "threshold": 0.51,
+          "coverage": 0.998,
+          "risk": 0.0470941883767535,
+          "abstention_rate": 0.0020000000000000018
+        },
+        {
+          "threshold": 0.52,
+          "coverage": 0.9955,
+          "risk": 0.04520341536916117,
+          "abstention_rate": 0.0044999999999999485
+        },
+        {
+          "threshold": 0.53,
+          "coverage": 0.9925,
+          "risk": 0.044332493702770814,
+          "abstention_rate": 0.007499999999999951
+        },
+        {
+          "threshold": 0.54,
+          "coverage": 0.99,
+          "risk": 0.04343434343434338,
+          "abstention_rate": 0.010000000000000009
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.987,
+          "risk": 0.042046605876393084,
+          "abstention_rate": 0.013000000000000012
+        },
+        {
+          "threshold": 0.56,
+          "coverage": 0.984,
+          "risk": 0.041158536585365835,
+          "abstention_rate": 0.016000000000000014
+        },
+        {
+          "threshold": 0.5700000000000001,
+          "coverage": 0.9815,
+          "risk": 0.04024452368823228,
+          "abstention_rate": 0.01849999999999996
+        },
+        {
+          "threshold": 0.58,
+          "coverage": 0.98,
+          "risk": 0.03928571428571426,
+          "abstention_rate": 0.020000000000000018
+        },
+        {
+          "threshold": 0.59,
+          "coverage": 0.978,
+          "risk": 0.03834355828220859,
+          "abstention_rate": 0.02200000000000002
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.976,
+          "risk": 0.03739754098360659,
+          "abstention_rate": 0.02400000000000002
+        },
+        {
+          "threshold": 0.61,
+          "coverage": 0.9745,
+          "risk": 0.03694202154951254,
+          "abstention_rate": 0.025499999999999967
+        },
+        {
+          "threshold": 0.62,
+          "coverage": 0.9725,
+          "risk": 0.036503856041131155,
+          "abstention_rate": 0.02749999999999997
+        },
+        {
+          "threshold": 0.63,
+          "coverage": 0.968,
+          "risk": 0.03564049586776863,
+          "abstention_rate": 0.03200000000000003
+        },
+        {
+          "threshold": 0.64,
+          "coverage": 0.966,
+          "risk": 0.0357142857142857,
+          "abstention_rate": 0.03400000000000003
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.964,
+          "risk": 0.03578838174273857,
+          "abstention_rate": 0.03600000000000003
+        },
+        {
+          "threshold": 0.66,
+          "coverage": 0.9605,
+          "risk": 0.03487766788131186,
+          "abstention_rate": 0.03949999999999998
+        },
+        {
+          "threshold": 0.67,
+          "coverage": 0.955,
+          "risk": 0.03403141361256545,
+          "abstention_rate": 0.04500000000000004
+        },
+        {
+          "threshold": 0.6799999999999999,
+          "coverage": 0.9515,
+          "risk": 0.03415659485023648,
+          "abstention_rate": 0.04849999999999999
+        },
+        {
+          "threshold": 0.69,
+          "coverage": 0.947,
+          "risk": 0.032734952481520585,
+          "abstention_rate": 0.05300000000000005
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.942,
+          "risk": 0.031847133757961776,
+          "abstention_rate": 0.05800000000000005
+        },
+        {
+          "threshold": 0.71,
+          "coverage": 0.936,
+          "risk": 0.03044871794871795,
+          "abstention_rate": 0.06399999999999995
+        },
+        {
+          "threshold": 0.72,
+          "coverage": 0.931,
+          "risk": 0.0284640171858217,
+          "abstention_rate": 0.06899999999999995
+        },
+        {
+          "threshold": 0.73,
+          "coverage": 0.929,
+          "risk": 0.027987082884822434,
+          "abstention_rate": 0.07099999999999995
+        },
+        {
+          "threshold": 0.74,
+          "coverage": 0.922,
+          "risk": 0.027114967462039008,
+          "abstention_rate": 0.07799999999999996
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.9145,
+          "risk": 0.026790595954073293,
+          "abstention_rate": 0.08550000000000002
+        },
+        {
+          "threshold": 0.76,
+          "coverage": 0.9105,
+          "risk": 0.025809994508511847,
+          "abstention_rate": 0.08950000000000002
+        },
+        {
+          "threshold": 0.77,
+          "coverage": 0.9075,
+          "risk": 0.024793388429752095,
+          "abstention_rate": 0.09250000000000003
+        },
+        {
+          "threshold": 0.78,
+          "coverage": 0.901,
+          "risk": 0.023307436182020025,
+          "abstention_rate": 0.09899999999999998
+        },
+        {
+          "threshold": 0.79,
+          "coverage": 0.8935,
+          "risk": 0.02350307778399552,
+          "abstention_rate": 0.10650000000000004
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.8845,
+          "risk": 0.022611644997173497,
+          "abstention_rate": 0.11550000000000005
+        },
+        {
+          "threshold": 0.81,
+          "coverage": 0.8785,
+          "risk": 0.021627774615822437,
+          "abstention_rate": 0.12150000000000005
+        },
+        {
+          "threshold": 0.8200000000000001,
+          "coverage": 0.8735,
+          "risk": 0.021179164281625695,
+          "abstention_rate": 0.12649999999999995
+        },
+        {
+          "threshold": 0.8300000000000001,
+          "coverage": 0.8635,
+          "risk": 0.020266357845975635,
+          "abstention_rate": 0.13649999999999995
+        },
+        {
+          "threshold": 0.8400000000000001,
+          "coverage": 0.854,
+          "risk": 0.01932084309133486,
+          "abstention_rate": 0.14600000000000002
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "coverage": 0.846,
+          "risk": 0.01654846335697402,
+          "abstention_rate": 0.15400000000000003
+        },
+        {
+          "threshold": 0.86,
+          "coverage": 0.8345,
+          "risk": 0.015578190533253489,
+          "abstention_rate": 0.16549999999999998
+        },
+        {
+          "threshold": 0.87,
+          "coverage": 0.823,
+          "risk": 0.014580801944106936,
+          "abstention_rate": 0.17700000000000005
+        },
+        {
+          "threshold": 0.88,
+          "coverage": 0.811,
+          "risk": 0.012330456226880449,
+          "abstention_rate": 0.18899999999999995
+        },
+        {
+          "threshold": 0.89,
+          "coverage": 0.802,
+          "risk": 0.012468827930174564,
+          "abstention_rate": 0.19799999999999995
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.794,
+          "risk": 0.012594458438287104,
+          "abstention_rate": 0.20599999999999996
+        },
+        {
+          "threshold": 0.91,
+          "coverage": 0.7835,
+          "risk": 0.01212507977026167,
+          "abstention_rate": 0.21650000000000003
+        },
+        {
+          "threshold": 0.9199999999999999,
+          "coverage": 0.7715,
+          "risk": 0.010369410239792654,
+          "abstention_rate": 0.22850000000000004
+        },
+        {
+          "threshold": 0.9299999999999999,
+          "coverage": 0.755,
+          "risk": 0.01059602649006619,
+          "abstention_rate": 0.245
+        },
+        {
+          "threshold": 0.94,
+          "coverage": 0.7415,
+          "risk": 0.01011463250168576,
+          "abstention_rate": 0.25849999999999995
+        },
+        {
+          "threshold": 0.95,
+          "coverage": 0.717,
+          "risk": 0.009762900976290068,
+          "abstention_rate": 0.28300000000000003
+        },
+        {
+          "threshold": 0.96,
+          "coverage": 0.6905,
+          "risk": 0.00868935553946415,
+          "abstention_rate": 0.3095
+        },
+        {
+          "threshold": 0.97,
+          "coverage": 0.658,
+          "risk": 0.0075987841945288626,
+          "abstention_rate": 0.34199999999999997
+        },
+        {
+          "threshold": 0.98,
+          "coverage": 0.616,
+          "risk": 0.007305194805194759,
+          "abstention_rate": 0.384
+        },
+        {
+          "threshold": 0.99,
+          "coverage": 0.537,
+          "risk": 0.004655493482309092,
+          "abstention_rate": 0.46299999999999997
+        }
+      ],
+      "feature_importance": {
+        "NumDots": 0.7871434957064002,
+        "SubdomainLevel": -0.8424824489345683,
+        "PathLevel": 0.6261731785600544,
+        "UrlLength": 0.6123448025726518,
+        "NumDash": -1.6079083523302224,
+        "NumDashInHostname": 0.6313605405680327,
+        "AtSymbol": -0.1572588666380606,
+        "TildeSymbol": 0.35518539567011664,
+        "NumUnderscore": -0.12751809990524438,
+        "NumPercent": -0.5733255307054923,
+        "NumQueryComponents": -2.452550741842696,
+        "NumAmpersand": 1.0997125345935728,
+        "NumHash": 0.10486571491806182,
+        "NumNumericChars": 0.15357513512184975,
+        "NoHttps": -0.5143920946407985,
+        "RandomString": -0.14581535258517367,
+        "IpAddress": 1.0955518135488198,
+        "DomainInSubdomains": 0.1143713429505735,
+        "DomainInPaths": -0.23589471544860885,
+        "HttpsInHostname": 0.0,
+        "HostnameLength": 0.4962086981105015,
+        "PathLength": 0.16906037159529794,
+        "QueryLength": 0.774877733427574,
+        "DoubleSlashInPath": 0.06564895621169695,
+        "NumSensitiveWords": 0.7203825832176497,
+        "EmbeddedBrandName": -0.08975041156776847,
+        "PctExtHyperlinks": -2.212891799822455,
+        "PctExtResourceUrls": -0.9782437293380564,
+        "ExtFavicon": 0.8126084358682951,
+        "InsecureForms": 1.6623700868415943,
+        "RelativeFormAction": -0.3108941561815745,
+        "ExtFormAction": -0.4763499455249229,
+        "AbnormalFormAction": -0.5302479241789488,
+        "PctNullSelfRedirectHyperlinks": -1.1762594636328731,
+        "FrequentDomainNameMismatch": 2.0707192244487374,
+        "FakeLinkInStatusBar": -0.12882283654713186,
+        "RightClickDisabled": 0.048928952861603,
+        "PopUpWindow": -0.2597595744216734,
+        "SubmitInfoToEmail": -1.1914078126522212,
+        "IframeOrFrame": -0.6795644917225147,
+        "MissingTitle": 0.3962140842157263,
+        "ImagesOnlyInForm": 0.11618474582081458,
+        "SubdomainLevelRT": -0.035190497931797696,
+        "UrlLengthRT": 0.5261018216590954,
+        "PctExtResourceUrlsRT": 0.07093479915418752,
+        "AbnormalExtFormActionR": -0.22131010210329874,
+        "ExtMetaScriptLinkRT": 0.29829938447657406,
+        "PctExtNullSelfRedirectHyperlinksRT": -3.406954417185695
+      }
+    }
+  ]
+}
